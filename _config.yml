@@ -182,9 +182,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   learnings:
     output: true
     permalink: /:collection/:path/
@@ -192,10 +189,10 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _miscellanies
   - scope:
       path: ""
-      type: posts
+      type: miscellanies
     values:
       layout: single
       author_profile: true
@@ -228,15 +225,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _learnings
   - scope:
       path: ""
