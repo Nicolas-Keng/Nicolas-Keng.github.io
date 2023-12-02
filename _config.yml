@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : Nicolas Keng / Haoyuan Geng"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nicolas-keng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "nicolas-keng/nicolas-keng.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  zhihu            : "https://www.zhihu.com/people/nicolas-keng/"
 
 
 # Reading Files
@@ -175,7 +176,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  lectures:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -184,7 +185,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  learnings:
     output: true
     permalink: /:collection/:path/
 
@@ -209,10 +210,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _lectures
   - scope:
       path: ""
-      type: teaching
+      type: lectures
     values:
       layout: single
       author_profile: true
@@ -236,12 +237,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _learnings
   - scope:
       path: ""
-      type: talks
+      type: learnings
     values:
-      layout: talk
+      layout: learning
       author_profile: true
       share: true
 
