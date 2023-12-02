@@ -6,12 +6,9 @@ main:
   - title: "Learnings and Talks"
     url: /learnings/
     
-  - title: "Notes"
-    url: /notes/
-
   - title: "Lectures"
     url: /lectures/
-
+    
   - title: "Miscellanies"
     url: /miscellanies/
     
